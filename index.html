@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tiga Laga, Satu Pola: Pekan Perdana Indonesia Women’s League 2026-27</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700;900&family=Roboto+Condensed:wght@400;700&display=swap">
+<style>
+:root{--bg:#faf7f2;--fg:#1b1b24;--mut:#6b6b78;--card:#fff;--line:#e4ded3;--a:#d6006f;--b:#0b7a75;--y:#f2c200;--s:1;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1118;--fg:#ece9e2;--mut:#9a9aa8;--card:#171b25;--line:#2a2f3d;--a:#ff4fa3;--b:#3fd0c9}}
+:root[data-theme="dark"]{--bg:#0e1118;--fg:#ece9e2;--mut:#9a9aa8;--card:#171b25;--line:#2a2f3d;--a:#ff4fa3;--b:#3fd0c9}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 calc(16px*var(--s))/1.75 Montserrat,system-ui,sans-serif;transition:background .3s,color .3s}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;line-height:1.15;margin:0 0 .6em}
+.dv{font:400 13px/1.4 'Roboto Condensed',Lato,sans-serif}
+header{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:calc(8px + env(safe-area-inset-top,0px)) 14px 8px;background:var(--bg);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:21}
+header b{font:700 13px 'Roboto Condensed',sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--a)}
+header div{display:flex;gap:6px}
+button{font:700 13px 'Roboto Condensed',sans-serif;background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:6px 10px;cursor:pointer;min-height:34px}
+#bar{position:fixed;top:0;left:0;height:3px;width:0;background:var(--a);z-index:30}
+.hero{min-height:88vh;display:flex;flex-direction:column;justify-content:center;padding:40px 20px;max-width:900px;margin:auto}
+.hero h1{font-size:clamp(2.2rem,8vw,4.6rem);font-weight:900}
+.hero h1 em{color:var(--a);font-style:normal}
+.hero p{max-width:34em;color:var(--mut)}
+.wrap{max-width:760px;margin:auto;padding:0 20px}
+.wide{max-width:1000px;margin:auto;padding:0 20px}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .8s,transform .8s}
+.rv.on{opacity:1;transform:none}
+.kpis{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:28px 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+.kpi strong{display:block;font:900 2.2rem 'Playfair Display',serif;color:var(--a)}
+.kpi span{font:400 13px 'Roboto Condensed',sans-serif;color:var(--mut)}
+section.m{padding:70px 0 40px;border-top:1px solid var(--line)}
+.score{display:flex;align-items:center;justify-content:space-between;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:18px 0}
+.score div{flex:1;font:700 15px 'Roboto Condensed',sans-serif;text-transform:uppercase}
+.score div:last-child{text-align:right}
+.score big{font:900 2.4rem 'Playfair Display',serif;white-space:nowrap}
+.grid{display:grid;gap:24px}
+@media(min-width:860px){.grid{grid-template-columns:1fr 1fr;align-items:start}.sticky{position:sticky;top:90px}}
+.step{min-height:34vh;padding:6px 0;opacity:.45;transition:opacity .4s}
+.step.on{opacity:1}
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;font:400 13px/1.4 'Roboto Condensed',Lato,sans-serif}
+.box h3{font-size:1.1rem}
+.row{padding:7px 0;border-bottom:1px dashed var(--line);transition:background .4s,opacity .4s}
+.row.dim{opacity:.35}
+.row .l{display:flex;justify-content:space-between;font-weight:700}
+.row .l i{font-style:normal;color:var(--mut);font-weight:400}
+.tr{display:flex;height:9px;gap:3px;margin-top:4px}
+.tr span{display:block;height:100%;border-radius:5px;width:0;transition:width 1.1s cubic-bezier(.2,.8,.2,1)}
+.tr .h{background:var(--a);margin-left:auto}.tr .a{background:var(--b)}
+.tr>div{flex:1;display:flex}
+.tl{position:relative;height:84px;margin:10px 8px}
+.tl::before{content:"";position:absolute;left:0;right:0;top:41px;height:2px;background:var(--line)}
+.ev{position:absolute;transform:translateX(-50%);width:20px;height:20px;border-radius:50%;display:grid;place-items:center;font-size:12px;cursor:pointer;border:0;padding:0;min-height:0}
+.ev.g{background:var(--fg);color:var(--bg)}
+.ev.c{background:var(--y);border-radius:3px;width:12px;height:17px}
+.lg{display:flex;gap:14px;flex-wrap:wrap;color:var(--mut);margin-top:6px}
+#tip{position:fixed;z-index:50;pointer-events:none;background:var(--fg);color:var(--bg);font:400 13px/1.4 'Roboto Condensed',sans-serif;padding:7px 10px;border-radius:8px;max-width:230px;opacity:0;transition:opacity .15s}
+.cap{color:var(--mut);margin:8px 0 0}
+svg text{font-family:'Roboto Condensed',sans-serif}
+.node{cursor:pointer}
+table{width:100%;border-collapse:collapse}
+td,th{padding:7px 4px;border-bottom:1px solid var(--line);text-align:left}
+td .mb{height:7px;border-radius:4px;background:var(--a);width:0;transition:width 1.1s}
+.pull{font:700 clamp(1.4rem,4.5vw,2.1rem)/1.25 'Playfair Display',serif;border-left:5px solid var(--a);padding-left:16px;margin:40px 0}
+.note{color:var(--mut);font:400 13px/1.5 'Roboto Condensed',sans-serif}
+footer{padding:50px 0 70px;border-top:1px solid var(--line)}
+.editing [contenteditable=true]{outline:1px dashed var(--a);outline-offset:3px;cursor:text;border-radius:3px}.editing [contenteditable=true]:focus{outline:2px solid var(--a);background:color-mix(in srgb,var(--a) 8%,transparent)}
+#edn{display:none;position:fixed;left:50%;bottom:calc(14px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:40;background:var(--fg);color:var(--bg);font:400 13px/1.4 'Roboto Condensed',sans-serif;padding:8px 14px;border-radius:20px;width:max-content;max-width:92vw;text-align:center}.editing #edn{display:block}
+@media(prefers-reduced-motion:reduce){.rv,.tr span{transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+<header><b>IWL 2026-27 · Pekan 1</b><div><button id="fm" aria-label="Perkecil huruf">A-</button><button id="fp" aria-label="Perbesar huruf">A+</button><button id="th" aria-label="Ganti mode terang atau gelap">◐</button><button id="rs" hidden>Reset</button><button id="ed" aria-label="Mode edit teks">✎ Edit</button></div></header>
+
+<div class="hero">
+  <p class="dv rv" style="color:var(--a);text-transform:uppercase;letter-spacing:.14em">Analisis data · Minggu, 18 Oktober 2026</p>
+  <h1 class="rv">Menguasai bola tak menjamin <em>menang</em></h1>
+  <p class="rv">Tiga laga, satu stadion, satu hari. Di pekan perdana Indonesia Women’s League di Stadion Madya Gelora Bung Karno, tak satu pun tim yang lebih banyak memegang bola pulang dengan tiga angka.</p>
+  <p class="dv rv">↓ Gulir untuk membaca</p>
+</div>
+
+<div class="wrap">
+  <p class="rv">Empat gol tercipta dari 74 tembakan. Satu laga ditentukan penalti, satu gol datang di menit ke-90, satu lagi lahir dari gol bunuh diri. Statistik resmi menunjukkan satu hal yang berulang: tim yang mengatur tempo belum tentu tim yang menentukan skor.</p>
+  <div class="kpis" id="kpis"></div>
+</div>
+
+<div class="wide" id="matches"></div>
+
+<div class="wide">
+  <section class="m">
+    <div class="wrap" style="padding:0"><h2 class="rv">Peta sehari di Senayan</h2>
+    <p class="rv">Tiga laga digelar bergantian di satu venue, dari pagi hingga malam. Sentuh atau arahkan kursor ke tiap titik untuk melihat jam sepak mula dan jumlah penonton.</p></div>
+    <div class="box rv"><svg id="map" viewBox="0 0 600 300" width="100%" role="img" aria-label="Skema Stadion Madya GBK dengan tiga laga"></svg>
+    <p class="cap">Ilustrasi skematis, bukan peta skala. Ukuran lingkaran mewakili jumlah penonton.</p></div>
+  </section>
+
+  <section class="m">
+    <div class="wrap" style="padding:0"><h2 class="rv">Yang paling sering memegang bola</h2>
+    <p class="rv">Dari tiga laga, ada tiga tim dengan penguasaan bola di atas lawan. Hasilnya: nol kemenangan, satu imbang, dua kekalahan.</p></div>
+    <div class="grid">
+      <div class="box rv" style="text-align:center"><svg id="donut" viewBox="0 0 200 200" width="230" role="img" aria-label="Hasil tim dengan penguasaan bola lebih tinggi"></svg><div id="dl" class="lg" style="justify-content:center"></div></div>
+      <div class="box rv"><h3>Tembakan dan tembakan ke gawang</h3><div id="shots"></div><p class="cap">Garis tipis: total tembakan. Garis tebal: tembakan ke gawang.</p></div>
+    </div>
+    <div class="pull rv">Garudayaksa dan Persikad melepas 34 tembakan, 20 di antaranya ke gawang. Keduanya pulang tanpa gol.</div>
+  </section>
+
+  <section class="m">
+    <div class="wrap" style="padding:0"><h2 class="rv">Efisiensi: siapa paling hemat peluang</h2></div>
+    <div class="box rv"><table id="eff"></table><p class="cap">Akurasi umpan dihitung penulis: umpan sukses ÷ (sukses + gagal).</p></div>
+  </section>
+
+  <section class="m"><div class="wrap" style="padding:0">
+    <h2 class="rv">Persaingan sengit, tipis, dan keras</h2>
+    <p class="rv">Selisih skor di ketiga laga hanya satu gol atau nol. Dua kemenangan datang dari tim yang kalah menguasai bola (46%), satu di antaranya lewat gol di menit akhir. Pertandingan yang paling rapat, Persija melawan FC Bekasi City, ditutup 1-1 dengan selisih penguasaan bola hanya dua poin.</p>
+    <p class="rv">Duel fisik juga tinggi: 57 pelanggaran dan 8 kartu kuning, tanpa satu pun kartu merah. Pelatih kedua tim tentu punya pekerjaan rumah soal penyelesaian akhir.</p>
+  </div></section>
+
+  <footer><div class="wrap" style="padding:0">
+    <h3>Metodologi</h3>
+    <p class="note">Data: halaman statistik pertandingan resmi ILeague (Match Stats, Linimasa), tiga laga pada 18 Oktober 2026. Angka diketik ulang dari tangkapan PDF dan dihitung ulang oleh penulis (total, rasio, akurasi umpan). Catatan: data gol bunuh diri di laga Persikad v Dewa United mencantumkan dua nama pada menit 79 (Daeng Rosma Dwi Rezky dan Gamze Bilmez), padahal skor hanya satu gol. Cek ulang dengan laporan wasit sebelum publikasi. Nilai persentase penonton merujuk kapasitas versi situs.</p>
+    <p class="note"><b>Cara mengedit:</b> semua angka dan narasi ada di objek <code>DATA</code> pada bagian &lt;script&gt;. Ubah nilainya, grafik dan teks akan ikut berubah.</p>
+  </div></footer>
+</div>
+<div id="tip"></div><div id="edn">Mode edit: klik teks mana pun untuk mengubahnya. Perubahan tersimpan otomatis di peramban ini.</div>
+
+<script>
+/* ===== DATA (edit di sini) =====
+ stats: [tuan rumah, tamu]; events: t=menit, s=0 tuan rumah/1 tamu, k=g (gol)/c (kartu kuning) */
+const DATA={
+ matches:[
+ {id:"m1",time:"07:30 WIB",att:225,pct:3,h:"Garudayaksa FC Women",a:"Persita Women",hs:0,as:1,
+  title:"Pagi di Senayan: sembilan tembakan, nol gol",
+  steps:[
+   {f:"poss,shots",t:"Garudayaksa menguasai 54% bola dan melepas 18 tembakan, lebih dari dua kali lipat Persita (8). Sembilan di antaranya mengarah ke gawang."},
+   {f:"corner,pass",t:"Sembilan tendangan sudut berbanding dua. Umpan sukses 253 berbanding 215. Semua indikator tekanan ada di sisi tuan rumah."},
+   {f:"acc,foul",t:"Namun Persita lebih akurat (67% vs 60%) dan baru bergerak di akhir. Diana Annisa Rahmawati mencetak satu-satunya gol di menit ke-90. Persita hanya melanggar dua kali."}],
+  ev:[{t:65,s:0,k:"c",w:"Agnes Sintauli Hutapea"},{t:90,s:1,k:"g",w:"Diana Annisa Rahmawati"}],
+  st:{poss:[54,46],sot:[9,4],shots:[18,8],acc:[60,67],pass:[253,215],corner:[9,2],tackle:[24,26],off:[3,1],foul:[10,2],yc:[1,0]}},
+ {id:"m2",time:"19:30 WIB",att:6232,pct:78,h:"Persija Jakarta Women",a:"FC Bekasi City Women",hs:1,as:1,
+  title:"Malam penuh: laga paling rapat",
+  steps:[
+   {f:"poss,pass",t:"Hampir seimbang: 49% untuk Persija, 51% untuk Bekasi City. Selisih umpan sukses hanya delapan (171 vs 179)."},
+   {f:"shots,corner",t:"Bekasi City lebih sering mengancam: 14 tembakan dan enam tendangan sudut. Mereka unggul lewat penalti Nao Tsukamoto di menit ke-30."},
+   {f:"foul,yc",t:"Persija membalas sembilan menit kemudian lewat Saki Nishihara (39’). Pelanggaran 14 berbanding 10 dan tiga kartu kuning di babak pertama menunjukkan laga yang panas."}],
+  ev:[{t:12,s:1,k:"c",w:"Ade Mustikiana Oktafiani"},{t:30,s:1,k:"g",w:"Nao Tsukamoto (penalti)"},{t:30,s:0,k:"c",w:"Vivi Oktavia Riski"},{t:38,s:1,k:"c",w:"Jasmine Sefia Waynie Cahyono"},{t:39,s:0,k:"g",w:"Saki Nishihara"}],
+  st:{poss:[49,51],sot:[4,7],shots:[10,14],acc:[50,54],pass:[171,179],corner:[2,6],tackle:[20,25],off:[0,2],foul:[14,10],yc:[1,2]}},
+ {id:"m3",time:"15:00 WIB",att:309,pct:4,h:"Persikad Women",a:"Dewa United FC Women",hs:0,as:1,
+  title:"Sore yang kejam bagi Persikad",
+  steps:[
+   {f:"shots,sot",t:"Persikad melepas 11 tembakan tepat sasaran, hampir empat kali lipat Dewa United (3). Akurasi tembakan mereka 85%."},
+   {f:"corner,poss",t:"Dewa United malah unggul tendangan sudut (9 vs 4), meski penguasaan bola kalah (46%)."},
+   {f:"yc,foul",t:"Skor berubah di menit ke-79 lewat gol bunuh diri. Dua kartu kuning untuk tiap tim membuat paruh akhir laga kian tegang."}],
+  ev:[{t:37,s:0,k:"c",w:"Gea Yumanda"},{t:49,s:1,k:"c",w:"Alzahna Firzalvia"},{t:79,s:1,k:"g",w:"Gol bunuh diri (tercatat atas nama Daeng Rosma Dwi Rezky / Gamze Bilmez)"},{t:86,s:1,k:"c",w:"Baiq Amiatun Shalihah"},{t:92,s:0,k:"c",w:"Zilfa Aninda Zevanya (90+2’)"}],
+  st:{poss:[54,46],sot:[11,3],shots:[16,8],acc:[85,43],pass:[237,203],corner:[4,9],tackle:[19,16],off:[1,2],foul:[10,11],yc:[2,2]}}
+ ],
+ /* pass gagal (untuk akurasi umpan): urutan m1,m2,m3, [tuan rumah, tamu] */
+ pfail:[[107,75],[88,97],[85,98]]
+};
+const LB={poss:"Penguasaan bola %",sot:"Tembakan ke gawang",shots:"Total tembakan",acc:"Akurasi tembakan %",pass:"Umpan sukses",corner:"Tendangan sudut",tackle:"Tekel sukses",off:"Offside",foul:"Pelanggaran",yc:"Kartu kuning"};
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const tip=$("#tip");
+function showTip(e,h){tip.innerHTML=h;tip.style.opacity=1;const p=e.touches?e.touches[0]:e;tip.style.left=Math.min(p.clientX+12,innerWidth-240)+"px";tip.style.top=(p.clientY+14)+"px"}
+function hideTip(){tip.style.opacity=0}
+function bindTip(el,h){["mousemove","click"].forEach(n=>el.addEventListener(n,e=>showTip(e,h)));el.addEventListener("mouseleave",hideTip);addEventListener("scroll",hideTip,{passive:true})}
+const M=DATA.matches;
+const teams=[];M.forEach((m,i)=>{[0,1].forEach(s=>teams.push({n:s?m.a:m.h,sh:m.st.shots[s],so:m.st.sot[s],g:s?m.as:m.hs,po:m.st.poss[s],pa:m.st.pass[s],pf:DATA.pfail[i][s],mi:i,s}))});
+const sum=f=>teams.reduce((a,t)=>a+f(t),0);
+const totalGoals=sum(t=>t.g),totalShots=sum(t=>t.sh);
+$("#kpis").innerHTML=[[M.length,"pertandingan"],[totalGoals,"gol, termasuk satu bunuh diri"],[totalShots,"total tembakan"],[M.reduce((a,m)=>a+m.st.yc[0]+m.st.yc[1],0),"kartu kuning, nol kartu merah"]].map(k=>`<div class="kpi rv"><strong>${k[0]}</strong><span>${k[1]}</span></div>`).join("");
+
+/* match sections */
+$("#matches").innerHTML=M.map((m,i)=>`
+<section class="m" id="${m.id}">
+ <div class="wrap" style="padding:0"><p class="dv" style="color:var(--a);text-transform:uppercase;letter-spacing:.12em">Laga ${i+1} · ${m.time} · ${m.att.toLocaleString("id-ID")} penonton (${m.pct}%)</p>
+ <h2 class="rv">${m.title}</h2></div>
+ <div class="score rv"><div>${m.h}</div><big>${m.hs} : ${m.as}</big><div>${m.a}</div></div>
+ <div class="grid">
+  <div>${m.steps.map(s=>`<div class="step rv" data-f="${s.f}"><p>${s.t}</p></div>`).join("")}</div>
+  <div class="sticky"><div class="box rv"><h3>Statistik pertandingan</h3>
+   <div style="display:flex;justify-content:space-between;font-weight:700"><span style="color:var(--a)">${m.h}</span><span style="color:var(--b)">${m.a}</span></div>
+   ${Object.keys(LB).map(k=>{const v=m.st[k],t=(v[0]+v[1])||1;return `<div class="row" data-k="${k}"><div class="l"><span>${v[0]}</span><i>${LB[k]}</i><span>${v[1]}</span></div><div class="tr"><div><span class="h" data-w="${v[0]/t*100}"></span></div><div><span class="a" data-w="${v[1]/t*100}"></span></div></div></div>`}).join("")}
+  </div></div>
+ </div>
+ <div class="box rv" style="margin-top:24px"><h3>Linimasa kejadian</h3><div class="tl" id="tl${i}"></div><div class="lg"><span>⚽ gol</span><span>▮ kartu kuning</span><span>Atas: ${m.h} · Bawah: ${m.a}</span></div></div>
+</section>`).join("");
+M.forEach((m,i)=>{const tl=$("#tl"+i);m.ev.forEach(e=>{const b=document.createElement("button");b.className="ev "+e.k;b.style.left=(e.t/94*100)+"%";b.style.top=(e.s?52:10)+"px";b.textContent=e.k==="g"?"⚽":"";b.setAttribute("aria-label",e.t+" menit "+e.w);bindTip(b,`<b>${e.t>90?"90+"+(e.t-90):e.t}’</b> ${e.k==="g"?"Gol":"Kartu kuning"}<br>${e.w}`);tl.appendChild(b)});
+ [0,45,90].forEach(t=>{const s=document.createElement("span");s.className="dv";s.style.cssText=`position:absolute;top:36px;left:${t/94*100}%;font-size:11px;color:var(--mut)`;s.textContent=t+"’";s.style.display="none";tl.appendChild(s)})});
+
+/* shots chart */
+$("#shots").innerHTML=teams.map(t=>`<div class="row"><div class="l"><span>${t.n}</span><i>${t.so}/${t.sh}</i></div><div style="height:12px;position:relative;margin-top:4px"><div class="tr" style="position:absolute;inset:3px 0;height:6px"><span class="a" style="background:var(--line)" data-w="${t.sh/18*100}"></span></div><div class="tr" style="position:absolute;inset:0;height:12px"><span class="h" style="margin:0" data-w="${t.so/18*100}"></span></div></div></div>`).join("");
+$$("#shots .row").forEach((r,i)=>bindTip(r,`<b>${teams[i].n}</b><br>${teams[i].sh} tembakan, ${teams[i].so} ke gawang<br>Gol: ${teams[i].g}`));
+
+/* donut: hasil tim yang unggul penguasaan bola */
+const res=[0,0,0];M.forEach(m=>{const s=m.st.poss[0]>m.st.poss[1]?0:1,g=s?[m.as,m.hs]:[m.hs,m.as];res[g[0]>g[1]?0:g[0]===g[1]?1:2]++});
+const nm=["Menang","Imbang","Kalah"],cl=["var(--b)","var(--y)","var(--a)"];
+let off=0,sv="";const R=70,C=2*Math.PI*R;
+res.forEach((v,i)=>{if(!v)return;const l=v/M.length*C;sv+=`<circle class="seg" cx="100" cy="100" r="${R}" fill="none" stroke="${cl[i]}" stroke-width="28" stroke-dasharray="0 ${C}" data-d="${l-3} ${C-l+3}" stroke-dashoffset="${-off}" transform="rotate(-90 100 100)" style="transition:stroke-dasharray 1.2s"/>`;off+=l});
+$("#donut").innerHTML=sv+`<text x="100" y="98" text-anchor="middle" font-size="34" font-weight="700" fill="var(--fg)">0 dari ${M.length}</text><text x="100" y="118" text-anchor="middle" font-size="12" fill="var(--mut)">menang</text>`;
+$$(".seg").forEach(s=>bindTip(s,"Tim unggul penguasaan bola"));
+$("#dl").innerHTML=res.map((v,i)=>`<span><b style="color:${cl[i]}">●</b> ${nm[i]}: ${v}</span>`).join("");
+
+/* efficiency table */
+const es=teams.map(t=>({...t,acc:t.pa/(t.pa+t.pf)*100,spg:t.g?t.sh/t.g:null})).sort((a,b)=>b.acc-a.acc);
+$("#eff").innerHTML=`<tr class="dv"><th>Tim</th><th>Gol</th><th>Tembakan per gol</th><th>Akurasi umpan</th></tr>`+es.map(t=>`<tr><td>${t.n}</td><td>${t.g}</td><td>${t.spg?t.spg.toFixed(1):"belum ada gol"}</td><td>${t.acc.toFixed(1)}%<div class="mb" data-w="${t.acc}"></div></td></tr>`).join("");
+
+/* map */
+const mp=$("#map");let ms=`<rect x="0" y="0" width="600" height="300" fill="none"/><ellipse cx="300" cy="150" rx="250" ry="110" fill="none" stroke="var(--line)" stroke-width="3"/><ellipse cx="300" cy="150" rx="190" ry="72" fill="none" stroke="var(--line)" stroke-width="2" stroke-dasharray="4 5"/><text x="300" y="154" text-anchor="middle" font-size="13" fill="var(--mut)">Stadion Madya GBK, Jakarta Selatan</text>`;
+[[110,150],[300,255],[490,150]].forEach((p,i)=>{const m=M[[0,2,1][i]],r=10+Math.sqrt(m.att)/3;ms+=`<g class="node" tabindex="0"><circle cx="${p[0]}" cy="${p[1]}" r="${r}" fill="var(--a)" fill-opacity=".8"/><text x="${p[0]}" y="${p[1]-r-8}" text-anchor="middle" font-size="13" font-weight="700" fill="var(--fg)">${m.time}</text></g>`});
+mp.innerHTML=ms;$$(".node",mp).forEach((n,i)=>{const m=M[[0,2,1][i]];bindTip(n,`<b>${m.h} ${m.hs}-${m.as} ${m.a}</b><br>Sepak mula ${m.time}<br>${m.att.toLocaleString("id-ID")} penonton (${m.pct}%)`)});
+
+/* reveal + animation */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const t=e.target;t.classList.add("on");$$("[data-w]",t).forEach(x=>x.style.width=x.dataset.w+"%");$$(".seg",t).forEach(x=>x.setAttribute("stroke-dasharray",x.dataset.d))}),{threshold:.2});
+$$(".rv").forEach(e=>io.observe(e));
+/* langkah scrolly: sorot baris statistik */
+const so=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const sec=e.target.closest("section"),f=e.target.dataset.f.split(",");$$(".step",sec).forEach(s=>s.classList.toggle("on",s===e.target));$$(".row[data-k]",sec).forEach(r=>r.classList.toggle("dim",!f.includes(r.dataset.k)))}),{rootMargin:"-40% 0px -40% 0px"});
+$$(".step").forEach(s=>so.observe(s));
+addEventListener("scroll",()=>{$("#bar").style.width=(scrollY/(document.body.scrollHeight-innerHeight)*100)+"%"},{passive:true});
+
+/* aksesibilitas */
+const R0=document.documentElement;let sc=1,dk=matchMedia("(prefers-color-scheme:dark)").matches;
+try{sc=+localStorage.getItem("iwl-s")||1;const t=localStorage.getItem("iwl-t");if(t)dk=t==="dark"}catch(e){}
+function ap(){R0.style.setProperty("--s",sc);R0.dataset.theme=dk?"dark":"light";try{localStorage.setItem("iwl-s",sc);localStorage.setItem("iwl-t",dk?"dark":"light")}catch(e){}}
+/* mode edit teks: ubah isi langsung di halaman, tersimpan di localStorage */
+const ES="header b,h1,h2,.hero p,.wrap p,.step p,.pull,.cap,.note,.score>div,.box h3,.kpi span,.kpi strong";
+const eds=$$(ES);let sv2={};try{sv2=JSON.parse(localStorage.getItem("iwl-ed")||"{}")}catch(e){}
+eds.forEach((e,i)=>{if(sv2[i]!=null)e.innerHTML=sv2[i];e.addEventListener("input",()=>{sv2[i]=e.innerHTML;try{localStorage.setItem("iwl-ed",JSON.stringify(sv2))}catch(x){}})});
+let eon=false;$("#ed").onclick=()=>{eon=!eon;document.body.classList.toggle("editing",eon);eds.forEach(e=>e.contentEditable=eon);$("#rs").hidden=!eon;$("#ed").textContent=eon?"✓ Selesai":"✎ Edit"};
+$("#rs").onclick=()=>{try{localStorage.removeItem("iwl-ed")}catch(e){}location.reload()};
+$("#fm").onclick=()=>{sc=Math.max(.85,+(sc-.1).toFixed(2));ap()};
+$("#fp").onclick=()=>{sc=Math.min(1.5,+(sc+.1).toFixed(2));ap()};
+$("#th").onclick=()=>{dk=!dk;ap()};ap();
+</script>
+</body>
+</html>
